@@ -2,14 +2,13 @@ package com.box;
 
 public class Tester {
     public static void main(String[] args) {
-        Box[] boxes ={new Box1(),new Box2(),new Box3()};
-
+        Box[] boxes = {new Box1(), new Box2(), new Box3(), new Box4(), new Box5()};
         int length = 4;
         int width = 5;
         int height = 5;
-        for (Box box: boxes){
-            if(box.validate(length,width,height)){
-                System.out.println(box.name +"it is!,"+ box.price);
+        for (Box box : boxes) {
+            if (box.validate(length, width, height)) {
+                System.out.println(box.name + "it is!," + box.price);
                 break;
             }
         }
