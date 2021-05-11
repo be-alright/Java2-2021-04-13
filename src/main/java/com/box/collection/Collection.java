@@ -6,9 +6,23 @@ import com.box.Box2;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 public class Collection {
     public static void main(String[] args) {
+        TreeSet <Integer> aa = new TreeSet<>();          //Integer可換成String
+        System.out.println(aa.size());
+        aa.add(2);
+        aa.add(4);
+        aa.add(3);
+        aa.add(2);
+        System.out.println(aa.size());
+        System.out.println(aa);
+        for (Integer a: aa) {
+
+        }
+
+        //分辨TreeSet和arrayList差別
 
         ArrayList list = new ArrayList();
         //String s = new String("cindy");
