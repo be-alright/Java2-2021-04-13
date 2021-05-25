@@ -17,6 +17,9 @@ public class Tester {
         }
         //
         Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.HOUR_OF_DAY,8);
+        cal.set(Calendar.MINUTE,30);
+
         System.out.println(cal.getTime());
 
 
