@@ -12,7 +12,7 @@ public class Box {
             return true;
         } else
             return false;
-
+    //public abstract String getName
 
     }
 }
