@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Car {
     String id;
-    Date enter;
+    Date enter;   // public /privite/ protected(放Date前面)
 //    int enterHour = 8;
 //    int enterMinute = 30;
     public Car(String id){
@@ -24,4 +24,9 @@ public class Car {
         enter = now.getTime();
 
     }
+
+    public Date getEnter() {
+        return enter;     //封裝
+    }
 }
+//日期 時間等數據資料處理
